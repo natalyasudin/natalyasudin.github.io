@@ -1,0 +1,139 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #f5f2e7; /* light beige */
+  color: #362f2d; /* dark brown */
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fffaf3; /* ivory background */
+  border: 1px solid #e6dcc8;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+/* Logo placeholder styling */
+.logo-placeholder {
+  width: 80px;
+  height: 48px;
+  background-color: #efe3ce;
+  border: 2px dashed #c7b79f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8b7b64;
+  font-size: 0.9rem;
+  border-radius: 4px;
+}
+
+/* Navigation styling */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: #362f2d;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: #efe3ce;
+}
+
+/* Section styling */
+.lang-section {
+  display: none;
+}
+
+.lang-section h1 {
+  font-size: 2rem;
+  margin-bottom: 0.2em;
+  color: #504437;
+}
+
+.lang-section h2 {
+  font-size: 1.4rem;
+  margin-top: 0;
+  margin-bottom: 1em;
+  font-weight: normal;
+  color: #7f6b51;
+}
+
+.lang-section h3 {
+  font-size: 1.2rem;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  color: #51453b;
+}
+
+.lang-section p {
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+.lang-section ul {
+  padding-left: 1.3em;
+  margin-bottom: 1em;
+}
+
+.lang-section li {
+  margin-bottom: 0.8em;
+  line-height: 1.5;
+}
+
+.photo-placeholder {
+  width: 200px;
+  height: 300px;
+  background-color: #efe3ce;
+  border: 2px dashed #c7b79f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8b7b64;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+/* Contact section */
+.contact {
+  margin-top: 2em;
+  background-color: #f5ede0;
+  border: 1px solid #e6dcc8;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.contact p {
+  margin: 0.3em 0;
+}
+
+.contact a {
+  color: #362f2d;
+  text-decoration: underline;
+}
+
+/* Hebrew RTL adjustments */
+section[dir="rtl"] {
+  text-align: right;
+}
